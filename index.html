@@ -4,9 +4,10 @@
   <title>Clock App</title>
 </head>
 <body>
-
-<h1 id="time">Loading...</h1>
-<button id="openModal">Change Timezone</button>
+<h1 id="time" style="color: blue; font-size: 40px;">Loading...</h1>
+<button id="openModal" style="padding:10px; font-size:16px;">
+  Change Timezone
+</button>
 
 <!-- Modal -->
 <div class="modal micromodal-slide" id="modal-1">
@@ -19,10 +20,11 @@
         <option value="Asia/Kolkata">India</option>
         <option value="America/New_York">New York</option>
         <option value="Europe/London">London</option>
+
       </select>
 
       <button id="saveTZ">Save</button>
-
+      <button id="reset">Reset Timezone</button>
     </div>
   </div>
 </div>
