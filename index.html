@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Clock App</title>
+</head>
+<body>
+
+<h1 id="time">Loading...</h1>
+<button id="openModal">Change Timezone</button>
+
+<!-- Modal -->
+<div class="modal micromodal-slide" id="modal-1">
+  <div class="modal__overlay">
+    <div class="modal__container">
+      
+      <h2>Select Timezone</h2>
+
+      <select id="timezone">
+        <option value="Asia/Kolkata">India</option>
+        <option value="America/New_York">New York</option>
+        <option value="Europe/London">London</option>
+      </select>
+
+      <button id="saveTZ">Save</button>
+
+    </div>
+  </div>
+</div>
+
+<script src="node_modules/dayjs/dayjs.min.js"></script>
+<script src="node_modules/micromodal/dist/micromodal.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
